@@ -8,6 +8,11 @@ require 'pry'
 #  grains: ["rice", "pasta"]
 # }
 
+
+#Use the #min method to collect the value that comes
+#first alphabetically. Have to flatten the values 
+#first so you can alphabetize them in one array.
+
 def get_the_min(groceries)
  groceries.values.flatten.min
 end
