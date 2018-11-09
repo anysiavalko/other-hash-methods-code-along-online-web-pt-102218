@@ -8,6 +8,13 @@ require 'pry'
 #  grains: ["rice", "pasta"]
 # }
 
+#longcut to groceries.values.flatten!! Just wanted to try it.
 def get_the_values(groceries)
-  #code your solution here!
+  values = [ ]
+  groceries.each do |type, item|
+    item.each do |item|
+      values << item
+    end
+  end
+  values
 end
