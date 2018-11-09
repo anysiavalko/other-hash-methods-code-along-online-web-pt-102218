@@ -12,6 +12,7 @@ require 'pry'
 #Use the values method to return a flat array that only includes
 #the values without their keys.
 #longcut to groceries.values.flatten!! Just wanted to try it.
+
 def get_the_values(groceries)
   values = [ ]
   groceries.each do |type, item|
