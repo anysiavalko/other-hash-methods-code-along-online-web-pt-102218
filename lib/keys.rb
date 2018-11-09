@@ -8,6 +8,8 @@ require 'pry'
 #  grains: ["rice", "pasta"]
 # }
 
+#Collect all of the keys in the hash.
+
 def get_the_keys(groceries)
   groceries.keys
 end
